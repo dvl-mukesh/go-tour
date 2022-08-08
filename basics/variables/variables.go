@@ -33,4 +33,17 @@ func main() {
 	l := 3
 
 	fmt.Println(l)
+
+	/**
+	 * Variables declared without an explicit initial value are
+	 * given their zero value.
+	 */
+
+	var ii int
+	var ff float64
+	var bb bool
+	var ss string
+
+	fmt.Printf("%v %v %v %q\n", ii, ff, bb, ss)
+
 }
